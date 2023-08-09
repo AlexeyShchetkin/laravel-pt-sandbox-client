@@ -1,0 +1,9 @@
+{
+    "data": {},
+    "errors": [
+        {
+            "message": "405: Method Not Allowed",
+            "type": "HTTPMethodNotAllowed"
+        }
+    ]
+}

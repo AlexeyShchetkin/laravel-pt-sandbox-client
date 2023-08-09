@@ -1,0 +1,13 @@
+{
+    "data": {
+        "result": {
+            "duration": 0.17754173884168268,
+            "errors": [],
+            "scan_state": "FULL",
+            "threat": "VIRUS",
+            "verdict": "CLEAN"
+        },
+        "scan_id": "16d1f7aa-333a-4fe8-8637-786e2956233d"
+    },
+    "errors": []
+}

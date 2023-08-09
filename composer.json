@@ -1,0 +1,38 @@
+{
+  "name": "rncb/laravel-pt-sandbox-client",
+  "version": "1.0",
+  "type": "library",
+  "require": {
+    "php": "^7|^8",
+    "illuminate/support": ">=8"
+  },
+  "require-dev": {
+    "orchestra/testbench": "*",
+    "phpunit/phpunit": "*"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "AlexeyShchetkin\\PtSandboxClient\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "AlexeyShchetkin\\PtSandboxClient\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Alexey Schetkin",
+      "email": "SchetkinAS@rncb.ru"
+    }
+  ],
+  "extra": {
+    "laravel": {
+      "providers": [
+        "AlexeyShchetkin\\PtSandboxClient\\Providers\\PtSandboxClientServiceProvider",
+        "AlexeyShchetkin\\PtSandboxClient\\Providers\\SymfonySerializerServiceProvider"
+      ]
+    }
+  }
+}
