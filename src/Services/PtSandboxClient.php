@@ -194,6 +194,7 @@ final class PtSandboxClient
             ->withOptions([
                 'connect_timeout' => $this->configuration->getConnectTimeout(),
                 'timeout' => $this->configuration->getTimeout(),
+		'verify' => false,
             ]);
     }
 
