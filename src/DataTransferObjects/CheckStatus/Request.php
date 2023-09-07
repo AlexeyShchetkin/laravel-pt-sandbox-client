@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace AlexeyShchetkin\PtSandboxClient\DataTransferObjects\CheckStatus;
 
-use DragonCode\Contracts\Support\Arrayable;
+use Illuminate\Contracts\Support\Arrayable;
 
 final class Request implements Arrayable
 {
